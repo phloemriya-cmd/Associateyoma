@@ -10,7 +10,7 @@ test('login', async ({ page }) => {
   await expect(page.locator("//h3[normalize-space()='Rani']")).toBeVisible()
   await expect(page.locator("//a[@class='text-muted']")).toBeVisible()
   await expect(page.locator("//h5[normalize-space()='My Detail']")).toBeVisible()
-  
+   
 
 
 });
